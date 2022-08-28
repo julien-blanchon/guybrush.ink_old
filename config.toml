@@ -5,7 +5,7 @@ defaultContentLanguage = "en-us"
 languageCode = 'en-us'
 enableEmoji = true
 enableGitInfo = true
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 # Choose one of emacs, trac or perldoc
 pygmentsStyle = "monokai"
@@ -49,3 +49,25 @@ pygmentsStyle = "monokai"
       {name = "email", url = "mailto:julien@blanchon.cc"}
     ]
     metaKeywords = ["blog", "deep_learning", "pytorch"]
+
+#https://kollitsch.dev/components/hugo-giscus/
+[dnb.giscus]
+    src = "https://giscus.app/client.js"
+    dataRepo = "julien-blanchon/guybrush.ink"
+    dataRepoId = "R_kgDOH5WENw"
+    dataCategory = "Announcements"
+    dataCategoryId = "DIC_kwDOH5WEN84CRGO4"
+    dataMapping = "pathname"
+    dataReactionsEnabled = "1"
+    dataEmitMetadata = "0"
+    dataInputPosition = "top"  # top, bottom
+    dataThemeType = "default"
+    #data-theme="preferred_color_scheme"
+    dataTheme = "dark"
+    dataLang = "en"
+
+[dnb.giscus.extended]
+    defaultCommentOrder = "oldest"
+
+[outputs]  
+    home = ["HTML", "GISCUS"]
