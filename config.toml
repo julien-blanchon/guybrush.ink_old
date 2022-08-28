@@ -1,0 +1,51 @@
+baseURL = 'https://guybrush.ink/'
+title = 'Guybrush Blog'
+theme = "gokarna"
+defaultContentLanguage = "en-us"
+languageCode = 'en-us'
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+
+# Choose one of emacs, trac or perldoc
+pygmentsStyle = "monokai"
+
+# https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/#configuration
+[menu]
+    [[menu.main]]
+        identifier = "posts"
+        url = "/posts/"
+        pre = ""
+        post = ""
+        name = "Posts"
+        weight = 1
+
+    [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 1
+
+    [[menu.main]]
+        identifier = "github"
+        url = "https://github.com/julien-blanchon"
+        weight = 4
+        pre = "<span data-feather='github'></span>"
+
+    [[menu.main]]
+        identifier = "twitter"
+        url = "https://twitter.com/JulienBlanchon"
+        weight = 4
+        pre = "<span data-feather='twitter'></span>"
+
+[params]
+    showPostsOnHomePage = "recent"
+    
+    socialIcons = [
+      {name = "github", url = "https://github.com/julien-blanchon"},
+      {name = "twitter", url = "https://twitter.com/JulienBlanchon"},
+      {name = "linkedin", url = "https://linkedin.com/in/julien-blanchon/"},
+      {name = "stackoverflow", url = "https://meta.stackoverflow.com/users/7211086/julien-blanchon"},
+      {name = "email", url = "mailto:julien@blanchon.cc"}
+    ]
+    metaKeywords = ["blog", "deep_learning", "pytorch"]
