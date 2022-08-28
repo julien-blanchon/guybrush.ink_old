@@ -69,5 +69,3 @@ pygmentsStyle = "monokai"
 [dnb.giscus.extended]
     defaultCommentOrder = "oldest"
 
-[outputs]  
-    home = ["HTML", "GISCUS"]
