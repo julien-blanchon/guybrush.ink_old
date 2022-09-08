@@ -1,8 +1,8 @@
 # https://gohugo.io/getting-started/usage/
-baseURL: "https://www.guybrush.ink"
-title: Guybrush Blog
+baseURL: "https://guybrush.ink"
+title: "@ Guybrush Blog"
 paginate: 5
-theme: hugo-PaperMod
+theme: [PaperModX]
 
 enableInlineShortcodes: true
 enableRobotsTXT: false
@@ -16,7 +16,7 @@ googleAnalytics: G-RR3HY9CFBN
 
 minify:
     disableXML: true
-    # minifyOutput: true
+    minifyOutput: true
 
 languages:
     en:
@@ -34,6 +34,11 @@ languages:
                 - name: Search
                   url: search/
                   weight: 10
+                - name: Twitter
+                  pre: <div class="sd"></div>
+                  url: "https://twitter.com/JulienBlanchon"
+                  params:
+                    external: true
                 # - name: Tags
                 #   url: tags/
                 #   weight: 10
@@ -66,11 +71,16 @@ params:
     ShowRssButtonInSectionTermList: false
     ShowToc: true
     disableAnchoredHeadings: true
-    
+    disableScrollToTop: false
     hideFooter: true
+    hidemeta: false
+    hideSummary: false
     images: ["papermod-cover.png"]
+    EnableInstantClick: true
     analytics.google.SiteVerificationTag: G-RR3HY9CFBN
-
+    showtoc: true
+    TocSide: 'left'  # or 'right'
+    tocopen: true
     comments: true
     giscus.repo: julien-blanchon/guybrush.ink
     giscus.repo_id: R_kgDOH5WENw
@@ -92,6 +102,19 @@ params:
               url: timeline
             - name: Tags
               url: tags
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+    # assets:
+    #     # disableFingerprinting: true
+    #     favicon: "<link / abs url>"
+    #     favicon16x16: "<link / abs url>"
+    #     favicon32x32: "<link / abs url>"
+    #     apple_touch_icon: "<link / abs url>"
+    #     safari_pinned_tab: "<link / abs url>"
+
 
     homeInfoParams:
         Title: "PaperMod"
@@ -113,7 +136,7 @@ params:
           url: "index.xml"
 
     editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+        URL: "https://github.com/julien-blanchon/guybrush.ink/tree/main/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
@@ -139,14 +162,15 @@ params:
     #     hiddenInList: true # hide on list pages and home
     #     hiddenInSingle: true # hide on single page
 
-    # fuseOpts:
-    #     isCaseSensitive: false
-    #     shouldSort: true
-    #     location: 0
-    #     distance: 1000
-    #     threshold: 0.4
-    #     minMatchCharLength: 0
-    #     keys: ["title", "permalink", "summary", "content"]
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1
+        threshold: 0.1
+        minMatchCharLength: 0
+        keys: ["title", "summary", "content"]
 
 markup:
     goldmark:
