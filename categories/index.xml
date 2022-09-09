@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Guybrush Blog</title>
-    <link>https://www.guybrush.ink/categories/</link>
-    <description>Recent content in Categories on Guybrush Blog</description>
-    <image>
-      <url>https://www.guybrush.ink/papermod-cover.png</url>
-      <link>https://www.guybrush.ink/papermod-cover.png</link>
-    </image>
+    <title>Categories on @ Guybrush Blog</title>
+    <link>https://guybrush.ink/categories/</link>
+    <description>Recent content in Categories on @ Guybrush Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.guybrush.ink/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://guybrush.ink/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>syntax</title>
-      <link>https://www.guybrush.ink/categories/syntax/</link>
+      <link>https://guybrush.ink/categories/syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.guybrush.ink/categories/syntax/</guid>
+      <guid>https://guybrush.ink/categories/syntax/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://www.guybrush.ink/categories/themes/</link>
+      <link>https://guybrush.ink/categories/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.guybrush.ink/categories/themes/</guid>
+      <guid>https://guybrush.ink/categories/themes/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
   </channel>
