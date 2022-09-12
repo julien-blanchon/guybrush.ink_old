@@ -62,8 +62,8 @@ params:
     author: Guybrush
     defaultTheme: auto
     ShowShareButtons: false
-    ShowReadingTime: true
-    ShowCodeCopyButtons: true
+    ShowReadingTime: false
+    ShowCodeCopyButtons: false
     ShowFullTextinRSS: false
     displayFullLangName: true
     ShowPostNavLinks: false
@@ -80,15 +80,8 @@ params:
     analytics.google.SiteVerificationTag: G-RR3HY9CFBN
     showtoc: true
     TocSide: 'left'  # or 'right'
-    tocopen: true
+    tocopen: false
     comments: true
-    giscus.repo: julien-blanchon/guybrush.ink
-    giscus.repo_id: R_kgDOH5WENw
-    giscus.category: Announcements
-    giscus.category_id: DIC_kwDOH5WEN84CRGO4
-    giscus.mapping: pathname
-    giscus.reactions_enabled: 1
-    giscus.theme: preferred_color_scheme
 
     commentSystems:
         disqus:
