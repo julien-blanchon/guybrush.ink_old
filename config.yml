@@ -76,7 +76,7 @@ params:
     hidemeta: false
     hideSummary: false
     images: ["papermod-cover.png"]
-    EnableInstantClick: true
+    EnableInstantClick: false
     analytics.google.SiteVerificationTag: G-RR3HY9CFBN
     showtoc: true
     TocSide: 'left'  # or 'right'
@@ -89,6 +89,20 @@ params:
     giscus.mapping: pathname
     giscus.reactions_enabled: 1
     giscus.theme: preferred_color_scheme
+
+    commentSystems:
+        disqus:
+            shortname: guybrush
+        remark42:
+            url: https://remark42.guybrush.ink
+            site: guybrush.ink
+        giscus:
+            data_repo: julien-blanchon/guybrush.ink
+            data_repo_id: R_kgDOH5WENw
+            data_category_id: DIC_kwDOH5WEN84CRGO4
+    defaultCommentSystems:
+        # remark42: true
+        giscus: true
 
     profileMode:
         enabled: false
