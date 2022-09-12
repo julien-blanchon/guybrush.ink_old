@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://guybrush.ink/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>PaperMod</title>
+      <link>https://guybrush.ink/posts/papermod/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://guybrush.ink/posts/papermod/</guid>
+      <description>Contains posts related to PaperMod</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
       <title>Markdown Syntax Guide</title>
       <link>https://guybrush.ink/posts/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
