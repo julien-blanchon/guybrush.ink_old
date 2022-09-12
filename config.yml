@@ -67,7 +67,7 @@ params:
     ShowFullTextinRSS: false
     displayFullLangName: true
     ShowPostNavLinks: false
-    ShowBreadCrumbs: true
+    ShowBreadCrumbs: false #Path of the article
     ShowRssButtonInSectionTermList: false
     ShowToc: true
     disableAnchoredHeadings: true
